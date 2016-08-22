@@ -1,0 +1,13 @@
+Documentation:
+  Enabled: false
+AllCops:
+  Exclude:
+    - .bundle/**/*
+    - vendor/**/*
+  TargetRubyVersion: 2.3
+Rails:
+  Enabled: true
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/Lambda:
+  EnforcedStyle: literal
